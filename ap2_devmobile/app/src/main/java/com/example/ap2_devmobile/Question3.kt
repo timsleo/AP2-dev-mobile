@@ -38,11 +38,11 @@ class Question3 : AppCompatActivity() {
             startActivity(intent)
         }
 
-        if(savedInstanceState == null) {
+        /*if(savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.botaoFragment, FragmentVoltar())
                 .commit()
-        }
+        }*/
 
     }
 }
